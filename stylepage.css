@@ -5,12 +5,20 @@
 }
 
 body, html{
-    height: 100%;
-    padding-top: 50px;
+    height: 100%;;
 }
 
 h1{
+    padding-top: 100px;
     font-size: 80px;
+    width: 70%;
+    position: relative;
+    margin-left: 40px;
+}
+
+h2{
+    padding-top: 50px;
+    font-size: 50px;
     width: 70%;
     position: relative;
     margin-left: 40px;
@@ -23,6 +31,17 @@ p{
     line-height: 25px;
     color: #2e2e2e;
     padding-bottom: 30px;
+}
+
+.banner{
+    display: flexbox;
+    padding: 70px;
+    background-color: black;
+}
+
+.logo{
+    display: flexbox;
+    height: 5em;
 }
 
 .button{
